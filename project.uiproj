@@ -1,0 +1,6 @@
+{
+  "Name": "ListandDictionaries",
+  "ProjectType": "Process",
+  "Description": "ListandDictionaries",
+  "MainFile": "Main.xaml"
+}
