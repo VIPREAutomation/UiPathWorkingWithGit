@@ -95,17 +95,17 @@
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:List(x:String)" Name="IndiaCities">
         <Variable.Default>
-          <VisualBasicValue x:TypeArguments="scg:List(x:String)" ExpressionText="New List(Of String) From {&quot;Chennai&quot;,&quot;BHOPAL&quot;,&quot;BaNGALore&quot;,&quot;HYDerabad&quot;}" />
+          <VisualBasicValue x:TypeArguments="scg:List(x:String)" ExpressionText="New List(Of String) From {&quot;Chennai&quot;,&quot;BHOPAL&quot;,&quot;BaNGALore&quot;,&quot;HYDerabad&quot;,&quot;BhopaL&quot;,&quot;DELhi&quot;}" />
         </Variable.Default>
       </Variable>
-      <Variable x:TypeArguments="scg:List(x:String)" Name="SpainCites" />
+      <Variable x:TypeArguments="scg:List(x:String)" Name="SpainCites">
+        <Variable.Default>
+          <VisualBasicValue x:TypeArguments="scg:List(x:String)" ExpressionText="New List(Of String)" />
+        </Variable.Default>
+      </Variable>
       <Variable x:TypeArguments="scg:List(x:String)" Name="MergeCollection" />
       <Variable x:TypeArguments="x:String" Name="FinalList" />
-      <Variable x:TypeArguments="scg:List(x:String)" Name="AllCities">
-        <Variable.Default>
-          <VisualBasicValue x:TypeArguments="scg:List(x:String)" ExpressionText="New List(of String)" />
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="scg:List(x:String)" Default="[New List(of String)]" Name="AllCities" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -115,7 +115,7 @@
     <uasc:BuildCollection x:TypeArguments="x:String" Items="{x:Null}" DisplayName="Build Collection" FirstItem="[(&quot;TokYO&quot;)]" sap:VirtualizedContainerService.HintSize="452,177.33333333333334" sap2010:WorkflowViewState.IdRef="BuildCollection`1_1" Result="[SpainCites]">
       <uasc:BuildCollection.NextItems>
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
-          <InArgument x:TypeArguments="x:String">BELLEVILLE</InArgument>
+          <InArgument x:TypeArguments="x:String">BELLEVILLE, San DEGO, VANCover</InArgument>
         </scg:List>
       </uasc:BuildCollection.NextItems>
     </uasc:BuildCollection>
